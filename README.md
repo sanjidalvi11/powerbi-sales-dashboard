@@ -1,98 +1,111 @@
-# Power BI Project – README
+📊 Beverage Sales Performance Dashboard (Power BI)
+📌 Project Overview
 
-## 📌 Project Overview
+This project presents an interactive Power BI dashboard that analyzes sales performance for a beverage brand shop.
+The dashboard provides insights into revenue, cost, profit, units sold, and monthly trends across different beverage brands and regions.
 
-This Power BI project focuses on transforming raw data into meaningful insights through interactive dashboards and visual analytics. The dashboard helps stakeholders understand trends, patterns, and key performance indicators (KPIs) to support data-driven decision-making.
+🎯 Objectives
 
----
+Analyze total revenue, total cost, and profit percentage
 
-## 📂 Dataset Description
+Compare performance across beverage brands
 
-The dataset used in this project contains structured data related to business operations and customer behavior. It includes information such as:
+Track monthly revenue trends
 
-* Customers / Users
-* Products or Services
-* Transactions / Sales
-* Time and Location attributes
+Identify top-performing and low-performing brands
 
-> ⚠️ Note: The dataset is used for learning and analytical practice purposes.
+Enable data-driven decision making
 
----
+📂 Dataset Information
 
-## ⚙️ Tools & Technologies
+Domain: Retail / Beverage Sales
 
-* **Power BI Desktop**
-* Power Query (Data Cleaning & Transformation)
-* DAX (Calculated Columns & Measures)
-* Excel / CSV as data source
+Data Includes:
 
----
+Beverage Brand
 
-## 🔧 Data Preparation
+Division
 
-The following steps were performed in Power Query:
+District
 
-* Removed duplicates and handled missing values
-* Changed data types for accuracy
-* Created calculated columns where required
-* Built relationships between tables
+Units Sold
 
----
+Revenue
 
-## 📊 Dashboard Features
+Total Cost
 
-The Power BI dashboard includes:
+Profit Percentage
 
-* KPI cards (Total Sales, Total Customers, Key Metrics)
-* Interactive slicers (Date, Category, Region, Gender, etc.)
-* Trend analysis using line and bar charts
-* Top-performing products/customers analysis
-* Segment-based insights (age group, category, location)
+Monthly Sales Data
 
----
+📈 Key Metrics (KPIs)
 
-## 📈 Key Insights
+Total Revenue: 8.20M
 
-* Identified top-performing products and categories
-* Analyzed customer behavior and purchase trends
-* Discovered seasonal and time-based patterns
-* Compared performance across regions and segments
+Total Cost: 5.87M
 
----
+Profit Percentage: 28.38%
 
-## 🚀 How to Use
+Average Price Per Unit: 0.48
 
-1. Download and open the `.pbix` file using Power BI Desktop
-2. Refresh data if required
-3. Use slicers to explore insights dynamically
-4. Review visuals to understand key trends
+📊 Dashboard Features
+🔹 Visualizations Included
 
----
+Revenue & Cost by Beverage Brand (Clustered Column Chart)
 
-## 📁 Project Structure (Example)
+Units Sold by Brand (Donut Chart)
 
-```
-PowerBI-Project/
-│
-├── data/
-│   └── dataset.xlsx
-│
-├── dashboard/
-│   └── project_dashboard.pbix
-│
-└── README.md
-```
+Monthly Revenue Trend (Line Chart)
 
----
+Top 5 Brands Performance Table
 
-## ✍️ Author
+Interactive Slicers
 
-* Name:Sanjid Alvi
-* Role: Data Analyst
+Beverage Brand
 
----
+Division
 
-## 📜 License
+District
 
-This project is created for educational and portfolio purposes only.
+🏆 Insights Generated
 
+Coca-Cola generates the highest revenue among all brands
+
+Dasani Water shows the highest profit percentage
+
+Revenue peaks during mid-year months
+
+Some brands have high sales volume but lower profit margins
+
+🛠 Tools & Technologies
+
+Power BI Desktop
+
+Power Query (Data Cleaning & Transformation)
+
+DAX (Measures & KPIs)
+
+Microsoft Excel / CSV (Data Source)
+
+📁 Project Structure
+📦 Beverage-Sales-Dashboard
+ ┣ 📊 PowerBI_Dashboard.pbix
+ ┣ 📄 README.md
+ ┗ 📂 Dataset
+    ┗ beverage_sales_data.csv
+
+🚀 How to Use
+
+Download the .pbix file
+
+Open using Power BI Desktop
+
+Refresh data if required
+
+Use slicers to explore insights interactively
+
+👤 Author
+
+Sanjid Alvi
+📧 Aspiring Data Analyst
+🛠 Skills: Power BI | SQL | Excel | Data Modeling | DAX
